@@ -142,7 +142,7 @@ namespace Chess_clock
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (numericUpDown2.Value < 59)
+            if (numericUpDown2.Value <= 59)
             {
                 label13.Text = numericUpDown2.Value.ToString();
                 if (numericUpDown2.Value < 10)
@@ -216,6 +216,11 @@ namespace Chess_clock
             label9.Text = "00";
             button1.Enabled = true;
             button2.Enabled = true;
+            numericUpDown1.Value = 0;
+            numericUpDown2.Value = 0;
+            label11.Text = "00";
+            label13.Text = "00";
+
         }
 
         private void button2_Click(object sender, EventArgs e)
