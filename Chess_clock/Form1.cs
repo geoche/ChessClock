@@ -220,6 +220,7 @@ namespace Chess_clock
             numericUpDown2.Value = 0;
             label11.Text = "00";
             label13.Text = "00";
+            button4.Text = "PAUSE";
 
         }
 
